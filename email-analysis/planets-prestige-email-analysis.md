@@ -1,7 +1,5 @@
 # Planet's Prestige: Email Analysis Report
 
-**Analyst:** Nithish Gattu · **Date:** 13 Oct 2026
-
 ## Background
 
 This lab is from Blue Team Labs Online, as part of the MyDFIR First Win investigation.
