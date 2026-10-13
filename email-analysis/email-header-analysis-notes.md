@@ -37,3 +37,17 @@
 8. B validates the ARC chain. The chain is valid, so B can read M's record: "the email passed all checks at M."
    - If B trusts M as an ARC sealer, B can accept the email.
    - If B does not trust M, B applies A's DMARC policy.
+
+## Key methodology
+
+1. **Do not trust the file extension.** Check the magic bytes (the first few bytes of the file) to confirm the real file format.
+2. **Always look for hidden files** in a folder (for example, with `ls -la`).
+3. **Do OSINT on the mail servers:**
+   - IP address
+   - Domain
+   - Mail server
+4. **If SPF fails, investigate further.**
+5. **Find all users who got a similar email.** Search by:
+   - Subject
+   - From address
+   - Message-ID
